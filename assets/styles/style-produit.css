@@ -1,0 +1,42 @@
+img {
+    width: 100%;
+}
+
+.retourIcon {
+    rotate: 180deg;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+}
+
+.retour {
+    display: flex;
+    gap: 1rem;
+    padding: 1rem 0;
+}
+
+.retour span {
+    font-family: var(--font-Manrope);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.images-produit {
+    position: relative;
+}
+
+.petite_images-produit {
+    position: absolute;
+    background-color: grey;
+    opacity: 50%;
+    bottom: 0;
+}
+
+.petite_images-produit button {
+    width: 30%;
+    opacity: inherit;
+    background-color: grey;
+    border: none;
+}
